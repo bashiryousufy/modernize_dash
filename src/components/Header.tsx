@@ -1,11 +1,11 @@
-import logo from '../../assets/images/logo.png';
-import profilePic from '../../assets/images/profile_pic.png';
+import logo from '../assets/images/logo.png';
+import profilePic from '../assets/images/profile_pic.png';
 import { FiSearch } from "react-icons/fi";
 import { BiCommentDetail } from "react-icons/bi";
 import { FaRegBell } from "react-icons/fa";
 import { RiArrowDropDownLine } from "react-icons/ri";
-import { useCurrentUser } from '../../hooks/useCurrentUser';
-import { useNotifications } from '../../hooks/useNotifications';
+import { useCurrentUser } from '../hooks/useCurrentUser';
+import { useNotifications } from '../hooks/useNotifications';
 import { IoMenu } from "react-icons/io5";
 
 const Header = () => {

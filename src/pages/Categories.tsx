@@ -1,4 +1,4 @@
-import { IconButton } from "../components/ui/IconButton"
+import { IconButton } from "../components/IconButton"
 import { IoIosAdd } from "react-icons/io";
 import categories from '../assets/categories.json';
 import Card from "../components/Card";
