@@ -86,7 +86,7 @@ const Sidebar = () => {
     ];
 
     return (
-        <aside id="sidebar" className=" sm:bg-neutral-100 fixed left-0 z-40 w-52 h-screen transition-transform -translate-x-full sm:translate-x-0 border-r " style={{ backgroundColor: '#F5F6FA' }} aria-label="Sidebar">
+        <aside id="sidebar" className="sm:bg-neutral-100 fixed top-12 left-0 z-40 w-52 h-screen transition-transform -translate-x-full sm:translate-x-0 border-r " style={{ backgroundColor: '#F5F6FA' }} aria-label="Sidebar">
 
             <div className="h-full px-2 py-6">
 

@@ -13,13 +13,13 @@ const Header = () => {
     const [notifications] = useNotifications();
 
     return (
-        <div className='flex items-center bg-white shadow-md h-12'>
+        <div className='fixed flex items-center bg-white shadow-md h-12 w-screen'>
 
             <button data-drawer-target="sidebar" data-drawer-toggle="sidebar" aria-controls="sidebar" type="button" className="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2  dark:text-slate-400">
                 <IoMenu />
             </button>
 
-            <div className="flex items-center ml-3">
+            <div className="flex items-center ml-4">
                 <img src={logo} alt="logo" className="h-7 w-7" />
                 <h1 className="text-black ml-1.5 font-bold">Modernize</h1>
             </div>
