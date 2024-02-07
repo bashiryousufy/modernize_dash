@@ -9,6 +9,10 @@ import Customers from './pages/Customers';
 import Reports from './pages/Reports';
 import Coupons from './pages/Coupons';
 import Inbox from './pages/Inbox';
+import KnowledgeBase from './pages/OtherInformation/KnowledgeBase';
+import ProductUpdates from './pages/OtherInformation/ProductUpdates';
+import PersonalSettings from './pages/Settings/PersonalSettings';
+import GlobalSettings from './pages/Settings/GlobalSettings';
 
 function App() {
     return (
@@ -23,6 +27,10 @@ function App() {
                     <Route path="/reports" element={<Reports />} />
                     <Route path="/coupons" element={<Coupons />} />
                     <Route path="/inbox" element={<Inbox />} />
+                    <Route path="/knowledge-base" element={<KnowledgeBase />} />
+                    <Route path="/product-updates" element={<ProductUpdates />} />
+                    <Route path="/personal-settings" element={<PersonalSettings />} />
+                    <Route path="/global-settings" element={<GlobalSettings />} />
                     <Route path="*" element={<NotfoundPage />} />
                 </Routes>
             </Layout>

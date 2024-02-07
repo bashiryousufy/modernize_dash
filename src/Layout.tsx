@@ -12,7 +12,7 @@ function Layout({ children }: LayoutProps) {
             <Header />
             <div className="flex">
                 <Sidebar />
-                <main className="p-4 sm:ml-64">
+                <main className="p-4 sm:ml-56">
                     {children}
                 </main>
             </div>
