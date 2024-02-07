@@ -20,7 +20,7 @@ const SidebarMenuItem: React.FC<SidebarMenuItemProps> = ({ icon, title, route, n
                 </div>
                 <span className={`flex-1 ms-3 whitespace-nowrap hover:text-white text-gray-500 text-xs pl-2 ${match ? "text-white" : ""}`}>{title}</span>
                 {notifications !== undefined && (
-                    <span className="inline-flex items-center justify-center w-0.2 h-1 p-2 ms-3 text-xs font-semibold bg-slate-900 text-slate-200 rounded-full">{notifications}</span>
+                    <span className="inline-flex items-center justify-center ml-20 h-1 p-2 ms-3 text-xs font-semibold bg-slate-900 text-slate-200 rounded-full">{notifications}</span>
                 )}
             </div>
         </NavLink>
