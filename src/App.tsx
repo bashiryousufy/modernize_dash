@@ -4,7 +4,7 @@ import Dashboard from './pages/Dashboard';
 import NotfoundPage from './pages/NotfoundPage';
 import Orders from './pages/Orders';
 import Products from './pages/Products';
-import Categories from './pages/Categories';
+import Categories from './pages/Categories/Categories';
 import Customers from './pages/Customers';
 import Reports from './pages/Reports';
 import Coupons from './pages/Coupons';
@@ -13,6 +13,7 @@ import KnowledgeBase from './pages/OtherInformation/KnowledgeBase';
 import ProductUpdates from './pages/OtherInformation/ProductUpdates';
 import PersonalSettings from './pages/Settings/PersonalSettings';
 import GlobalSettings from './pages/Settings/GlobalSettings';
+import CreateEditCategoryForm from './pages/Categories/CreateEditCategoryForm';
 
 function App() {
     return (
@@ -23,6 +24,8 @@ function App() {
                     <Route path="/orders" element={<Orders />} />
                     <Route path="/products" element={<Products />} />
                     <Route path="/categories" element={<Categories />} />
+                    <Route path="/categories/:id" element={<CreateEditCategoryForm />} />
+                    <Route path="/categories/create" element={<CreateEditCategoryForm />} />
                     <Route path="/customers" element={<Customers />} />
                     <Route path="/reports" element={<Reports />} />
                     <Route path="/coupons" element={<Coupons />} />

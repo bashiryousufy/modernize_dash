@@ -13,7 +13,7 @@ const Header = () => {
     const [notifications] = useNotifications();
 
     return (
-        <div className='fixed flex items-center bg-white shadow-md h-12 w-screen'>
+        <div className='fixed flex items-center bg-white shadow-md h-12 w-screen z-10'>
 
             <button data-drawer-target="sidebar" data-drawer-toggle="sidebar" aria-controls="sidebar" type="button" className="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2  dark:text-slate-400">
                 <IoMenu />
