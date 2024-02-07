@@ -1,10 +1,5 @@
 import { useState } from "react";
 
-interface User {
-    name: string;
-    email: string;
-}
-
 type UpdateUser = (updatedUser: Partial<User>) => void;
 
 export function useCurrentUser(): [User, UpdateUser] {
