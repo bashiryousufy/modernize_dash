@@ -12,16 +12,16 @@ const Header = () => {
     const [notifications] = useNotifications();
 
     return (
-        <div className='flex items-center bg-white shadow-sm h-12'>
+        <div className='flex items-center bg-white shadow-md h-12'>
 
             <div className="flex items-center ml-3">
                 <img src={logo} alt="logo" className="h-7 w-7" />
                 <h1 className="text-black ml-1.5 font-bold">Modernize</h1>
             </div>
 
-            <div className="flex items-center ml-24 mr-auto gap-2.5">
+            <div className="flex items-center ml-28 mr-auto gap-2.5">
                 <FiSearch className='icon' />
-                <input type="text" placeholder='Search...' className="!outline-none" />
+                <input type="text" placeholder='Search...' className="!outline-none text-xs" />
             </div>
 
             <div className='flex items-center'>
